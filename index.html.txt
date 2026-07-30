@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD. Shahidul Islam | Amazon Listing Specialist Portfolio</title>
+    <style>
+        /* Base Colors & Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0b0f19;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero Section */
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            background: radial-gradient(circle at top, #1e293b 0%, #0b0f19 70%);
+        }
+        .profile-title {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        .profile-subtitle {
+            font-size: 1.5rem;
+            color: #ff9900; /* Amazon Golden Orange */
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .partner-text {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .badge {
+            background-color: #1e293b;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid #334155;
+            color: #cbd5e1;
+        }
+
+        /* About Section (Short & Punchy) */
+        .about-section {
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom: 1px solid #1e293b;
+        }
+        .about-text {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.15rem;
+            color: #cbd5e1;
+        }
+        .about-text strong {
+            color: #ffffff;
+        }
+
+        /* Portfolio Work Proof Section */
+        .portfolio-section {
+            padding: 60px 20px;
+        }
+        .section-heading {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 40px;
+            color: #ffffff;
+            position: relative;
+        }
+        .section-heading::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: #ff9900;
+            margin: 10px auto 0 auto;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+        .portfolio-card {
+            background-color: #111827;
+            border: 1px solid #1f2937;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .portfolio-card:hover {
+            transform: translateY(-5px);
+            border-color: #ff9900;
+        }
+        .image-box {
+            position: relative;
+            background-color: #030712;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-bottom: 1px solid #1f2937;
+        }
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-content h3 {
+            font-size: 1.25rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        .card-content p {
+            font-size: 0.95rem;
+            color: #9ca3af;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        .tag-container {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .card-tag {
+            background-color: #1f2937;
+            color: #e5e7eb;
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        /* Toolbox & Contact Section */
+        .footer-section {
+            background-color: #030712;
+            padding: 60px 20px;
+            text-align: center;
+            border-top: 1px solid #1f2937;
+        }
+        .tools-list {
+            margin: 20px 0 40px 0;
+            color: #9ca3af;
+            font-size: 1.1rem;
+        }
+        .cta-btn {
+            display: inline-block;
+            background-color: #ff9900;
+            color: #000000;
+            font-weight: 700;
+            padding: 14px 35px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background-color 0.2s ease;
+        }
+        .cta-btn:hover {
+            background-color: #ffb340;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Header Section -->
+    <header>
+        <div class="container">
+            <h1 class="profile-title">MD. Shahidul Islam</h1>
+            <div class="profile-subtitle">Amazon Seller Central Listing Specialist</div>
+            <p class="partner-text">Trusted by <strong>Thrilltons Tech Inc.</strong> and <strong>Unordinary Pty Ltd.</strong></p>
+            <div class="badge-container">
+                <span class="badge">🎓 EEE Graduate</span>
+                <span class="badge">🕘 5+ Years Experience</span>
+                <span class="badge">📍 Dhaka, Bangladesh</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Short Professional Summary -->
+    <section class="about-section">
+        <div class="container">
+            <p class="about-text">
+                An <strong>Electrical and Electronic Engineering (EEE) graduate</strong> with over 5 years of hands-on expertise running Amazon Seller Central accounts and end-to-end FBA operations. Specialized in optimizing platform presence, catalog troubleshooting, advanced SEO mapping, and maintaining perfect store metrics to unlock scalable marketplace growth.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Dynamic Portfolio Section -->
+    <section class="portfolio-section">
+        <div class="container">
+            <h2 class="section-heading">Live Work Proof & Case Studies</h2>
+            
+            <div class="grid-container">
+                
+                <!-- Card 1: Flat File -->
+                <div class="portfolio-card">
+                    <div class="image-box">
+                        <!-- Replace 'flat-file.jpg' with your actual image path or link -->
+                        <img src="flat-file.jpg" alt="Amazon Flat File Upload Status Dashboard">
+                    </div>
+                    <div class="card-content">
+                        <h3>Bulk Listing & Flat File Troubleshooting</h3>
+                        <p>Expertise in handling high-volume product catalogs using Multi-Marketplace Listing Templates (.xlsm). Efficiently analyzing error feeds, checking upload logs, and correcting data attributes to achieve a clean system execution status.</p>
+                        <div class="tag-container">
+                            <span class="card-tag">Bulk Uploads</span>
+                            <span class="card-tag">Error Resolution</span>
+                            <span class="card-tag">Inventory Templates</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Account Health -->
+                <div class="portfolio-card">
+                    <div class="image-box">
+                        <!-- Replace 'account-health.jpg' with your actual image path or link -->
+                        <img src="account-health.jpg" alt="Perfect Amazon Account Health Rating Dashboard">
+                    </div>
+                    <div class="card-content">
+                        <h3>Account Health & Policy Compliance</h3>
+                        <p>Proven record in keeping Amazon stores secure against potential policy violations. Proactively mitigating performance risks, resolving intellectual property flags, and maintaining an absolute perfect Account Health Rating (AHR) score of 1,000/1,000.</p>
+                        <div class="tag-container">
+                            <span class="card-tag">AHR Management</span>
+                            <span class="card-tag">Policy Compliance</span>
+                            <span class="card-tag">Risk Mitigation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Listing Creation -->
+                <div class="portfolio-card">
+                    <div class="image-box">
+                        <!-- Replace 'listing-creation.jpg' with your actual image path or link -->
+                        <img src="listing-creation.jpg" alt="Amazon Product Listing Creation Dashboard">
+                    </div>
+                    <div class="card-content">
+                        <h3>Product Listing Creation & Advanced SEO</h3>
+                        <p>Building listings from the ground up on Seller Central with precise structural accuracy. Optimizing backend identity tokens, item descriptions, and child variation themes, ensuring all sections are perfectly verified and ready to submit.</p>
+                        <div class="tag-container">
+                            <span class="card-tag">Listing Creation</span>
+                            <span class="card-tag">Amazon SEO</span>
+                            <span class="card-tag">Variation Setup</span>
+                        </div>
+                    </div>
